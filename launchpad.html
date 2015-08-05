@@ -1,0 +1,11 @@
+<head>
+  <title>launchpad</title>
+</head>
+<body>
+  <h1>Welcome to Meteor!</h1>
+  {{> editorWindow}}
+</body>
+
+<template name="editorWindow">
+  {{> sharejsAce docid=docid id="editor"}}
+</template>

@@ -1,0 +1,12 @@
+/* CSS declarations go here */
+.editor-container{
+    position: relative
+}
+
+#editor.shareJSAce{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60px;
+    bottom: 0;
+}
